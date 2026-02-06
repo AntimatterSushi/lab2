@@ -38,12 +38,10 @@
 
     <TextView
         android:id="@+id/summaryTv"
+        android:layout_width="391dp"
+        android:layout_height="95dp"
+        android:padding="5dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleTv"
-        android:layout_width="324dp"
-        android:layout_height="163dp"
-        android:padding="5dp"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="329dp"
         tools:text="Have you been able to finish the latest assignment? I'm stuck on the 3rd step and don't quite know what's wrong." />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -25,6 +25,5 @@ class MainActivity : AppCompatActivity() {
         emailsRv.adapter = adapter
         // Set layout manager to position the items
         emailsRv.layoutManager = LinearLayoutManager(this)
-        }
     }
 }
